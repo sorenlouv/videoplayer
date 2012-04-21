@@ -1,0 +1,21 @@
+Description:
+Video player originally developed as frontend interface for a NAS.
+
+Installation:
+
+Development:
+
+Start coffeescript compiler:
+coffee -wc -o js/ js/src/
+
+Start sass compiler:
+compass watch --css-dir ./css/ --sass-dir ./css/src/
+
+Installation from scratch:
+compass create --using blueprint --css-dir css/ --sass-dir css/src/
+
+Ressources:
+http://coffeescript.org
+http://compass-style.org
+http://openstora.com/wiki/index.php
+
